@@ -1,0 +1,109 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+body > div{
+  margin: auto;
+  width: 70%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 1, 0.6);
+  padding: 50px;
+}
+
+#logo{
+  margin: auto;
+  width: 200px;
+  display: block;
+  padding-top: 30px;
+}
+
+header > h2 {
+ color: lime;
+ margin: auto;
+ text-align: center;
+ padding-top: 10px;
+}
+
+.contenitore{
+  margin: auto;
+  width: 80%;
+  padding: 15px;
+}
+
+nav{
+  margin: auto;
+  padding: 5px;
+  background-color: lime;
+  border-radius: 2px;
+  text-align: center;
+
+}
+
+h3{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+nav > button{
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.menu_prenotazioni{
+  color: white;
+  padding-top: 15px;
+}
+
+div .menu_prenotazioni > h3:before {
+ content: "\25FD";
+ padding-right: 5px;
+
+}
+
+div .menu_prenotazioni > p {
+ padding-bottom: 2px;
+ padding-top: 2px;
+
+}
+
+div .menu_prenotazioni > p:before {
+ content: "\27FC";
+ padding-right: 5px;
+
+}
+
+.carica_bassa{
+  margin: auto;
+  padding: 13px;
+  background-color: firebrick;
+  width: 10%;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+
+.carica_media{
+  margin: auto;
+  padding: 13px;
+  background-color: #FFA54F;
+  width: 40%;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.carica_piena{
+  margin: auto;
+  padding: 13px;
+  background-color: #228B22;
+  width: 90%;
+  border-radius: 5px;
+  display: inline-block;
+}
